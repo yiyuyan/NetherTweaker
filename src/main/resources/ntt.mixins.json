@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.ntt.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ntt.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "EntityMixin",
+    "GameRendererMixin",
+    "GuiMixin",
+    "LivingEntityMixin",
+    "LocalPlayerMixin",
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
